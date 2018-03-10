@@ -1,0 +1,103 @@
+doctype html
+
+html
+	head
+		title= "Participant Details"
+		link(rel='stylesheet', href='/stylesheets/participant.css')
+	body
+		nav.navbar.navbar-inverse
+			.container.animated.fadeInUp
+			.jumbotron
+				h1 Meeting Manager
+				<img src="images/banner4.png" class="img-responsive">
+			.container
+				.navbar-header
+					button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+				.navbar-collapse.collapse
+					ul.nav.navbar-nav
+						li.active
+							a(data-toggle="modal" href="/participants")
+								span.glyphicon.glyphicon-th-list
+								|  Participant List						
+						li.active
+							a(data-toggle="modal" href="/participants/update?id=" #{participants[0].participantid})
+								span.glyphicon.glyphicon-edit
+								|  Participant Update		
+			.container
+				.panel-group(id="accordion")
+					.panel.panel-default
+						.panel-heading
+							h4.panel-title
+								a(data-toggle="collapse" data-parent="#accordion" href="#collapse1") Participant Details for: #{participants[0].firstname} #{participants[0].lastname}
+						.panel-collapse.collapse(id="collapse1")
+							.panel-body
+									.table-responsive
+										table.stabletable
+											thread
+												tr
+													td=  "ParticipantID:" 
+													td   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  	 						
+													td=  participants[0].participantid
+												tr
+													td=  "Full Name:"	
+													td 
+													td=  participants[0].firstname + " " + participants[0].lastname	
+												tr
+													td=  "Short Name:"
+													td   
+													td=  participants[0].shortname											
+												tr
+													td=  "Organization:"
+													td   
+													td=  participants[0].organizationname
+												tr
+													td=  "Email:"
+													td   
+													td=  participants[0].emailaddress												
+												tr
+													td=  "Dietary Needs:"
+													td   
+													td=  participants[0].dietaryneeds
+												tr
+													td=  "FY:"
+													td   
+													td=  participants[0].fy											
+			.container
+				.panel-group(id="accordion2")
+					.panel.panel-default
+						.panel-heading
+							h4.panel-title
+								a(data-toggle="collapse" data-parent="#accordion2" href="#collapse2") Team Assignment for: #{participants[0].firstname} #{participants[0].lastname}
+						.panel-collapse.collapse(id="collapse2")
+							.panel-body
+									h2 #{tabletitle}
+									.table-responsive
+										table.stabletable
+											thread
+												tr
+													td=  "TeamID:" 
+													td   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  	 						
+													td=  participants[0].teamid
+												tr
+													td=  "Team Identification:"	
+													td 
+													td=  participants[0].teamletter + participants[0].teamcolor	
+												tr
+													td=  "Team Spirit Name"
+													td   
+													td=  participants[0].teamspiritname											
+												tr
+													td=  "Team Points:"
+													td   
+													td=  participants[0].teampoints
+												tr
+													td=  "Team Rank:"
+													td   
+													td=  participants[0].teamrank												
+
+	script(src='/javascripts/jquery-2.0.3.min.js')
+	script(src='/javascripts/bootstrap.min.js')

@@ -1,0 +1,91 @@
+@import url("/stylesheets/bootstrap.min.css");
+@import url("/stylesheets/bootstrap-theme.css");
+
+.jumbotron{
+	margin-top: 30px;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 2px #888888;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron h1 {font-size:35px; color:#3A94B2;}
+.jumbotron h2 {font-size:25px; color:#3A94B2;}
+
+footer{
+	border-top: 1px dashed #CCCCCC;
+	margin: 40px 0px;
+	padding: 20px 0px;
+}
+
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: blue;
+}
+h1 {font-size:35px; color:#3A94B2;}
+h2 {font-size:25px; color:#3A94B2;}
+#standardsize img
+{
+height:220px;
+width:780px;
+}
+.formtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 0px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+.stabletable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 0px;
+	border-color: #ffffff;
+	border-collapse: collapse;
+}
+.hovertable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+.hovertable th {
+	background-color:#2E2E2E;
+	border-width: 1px;
+	color: white;
+	width: 160px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+.hovertable tr {
+	background-color:white;
+}
+.hovertable td {
+	border-width: 1px;
+	width: 160px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+/* ----------- FORM LAYOUT ----------- */
+#form_wrapper
+{
+	float: left;
+    margin:0 auto;
+    height:auto;
+    width: 1000px;
+    padding:50x;
+    border:solid 5px white;
+    background: white;
+}

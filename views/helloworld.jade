@@ -1,0 +1,22 @@
+extends layout
+
+block content
+	#standardsize
+		img(src="images/banner.png") 
+	h1 Hello World  
+	hr
+	h2  #{tabletitle + "  :  " + reportdate} 
+	table.hovertable
+		tr.hovertable(onmouseover="this.style.backgroundColor='#c3dde0';" onmouseout="this.style.backgroundColor='white';")
+			th #{header1}
+			th #{header2}
+			th #{header3}
+			th #{header4}
+			th #{header5}						
+		for participant in participants			
+			tr.hovertable(onmouseover="this.style.backgroundColor='yellow';" onmouseout="this.style.backgroundColor='white';")
+				td= participant.participantid
+				td= participant.organization
+				td= participant.firstname
+				td= participant.lastname
+				td= participant.email								

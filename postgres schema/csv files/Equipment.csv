@@ -1,0 +1,7 @@
+EquipmentID,MeetingID,EquipmentDescription,Quantity,SetupInstructions,OwnedorRental,DailyRentalPrice
+1,1,Laptop Projectors,2,Sync both Projectors on Screens,R,375
+2,1,Screens,2,8 X 10 Screen,R,350
+3,1,Microphone,2,Lavalier & Handheld Microphone ,R,211
+4,1,Flip Chart - Table Pads,12,Position 1 at each Team Table,O,
+5,1,Flip Chart on Stands,2,Front on Room for Instructor Team,R,50
+6,1,Posit Note Pads & Markers,14,Position at each Team & Instructor Table,O,

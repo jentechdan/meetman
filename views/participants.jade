@@ -1,0 +1,41 @@
+doctype html
+
+html
+	head
+		title= "Participant List"
+		link(rel='stylesheet', href='/stylesheets/participant.css')
+	body
+		nav.navbar.navbar-inverse
+			.container.animated.fadeInUp
+			.jumbotron
+				h1 Meeting Manager
+				<img src="images/banner4.png" class="img-responsive">
+		h2 Participant List	
+		table.hovertable
+			tr 
+				th Participant ID
+				th First Name
+				th Last Name
+				th Short Name
+				th Organization Name				
+				th Email
+				th FY
+				th Dietary Needs
+				th Team Name					
+				for participant in participants		
+					tr.hovertable(onmouseover="this.style.backgroundColor='lightgray';" onmouseout="this.style.backgroundColor='white';")
+						td
+							a(href="/participants?id=#{participant.participantid}") #{participant.participantid}
+						td= participant.firstname
+						td= participant.lastname
+						td= participant.shortname
+						td= participant.organizationname						
+						td= participant.emailaddress
+						td= participant.fy
+						td= participant.dietaryneeds
+						td= participant.teamletter + participant.teamcolor
+	script(src='/javascripts/jquery-2.0.3.min.js')
+	script(src='/javascripts/bootstrap.min.js')
+
+
+
