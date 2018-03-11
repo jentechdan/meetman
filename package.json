@@ -13,7 +13,7 @@
     "express": "^4.16.2",
     "jade": "*",
     "massive": "^4.7.0",
-    "moment": "2.4.x",
+    "moment": "2.9.x",
     "numeral": "1.5.x"
   }
 }
