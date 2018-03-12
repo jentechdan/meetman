@@ -23,12 +23,16 @@ exports.list = function(req, res){
 
 var myID = req.query.id;
 
+ teamQuery = 'Select * from Team;'; 
+
+
 if (myID != null) {
   myQuery = 'SELECT participant.*, organization.organizationname, team.* \
                 FROM participant \
                   LEFT JOIN team ON team.teamid = participant.teamid \
                   LEFT JOIN organization on organization.organizationid = participant.organizationid \
                   where participant.participantid = ' + myID;
+                  
   myRender = 'participantDetails';
 
   } else {
@@ -36,18 +40,26 @@ if (myID != null) {
   myQuery =  'SELECT participant.*, organization.organizationname, team.* \
                 FROM participant \
                   LEFT JOIN team ON team.teamid = participant.teamid \
-                  LEFT JOIN organization on organization.organizationid = participant.organizationid order by 1;'    
+                  LEFT JOIN organization on organization.organizationid = participant.organizationid order by 1;' 
+                   
   myRender = 'participants';  
                            
 }
-
-      db.query(myQuery).then(function(results) {
-        res.render(myRender, 
-            { participants: results})
+    db.query(teamQuery).then(function(results1) {
+        teamresults = results1;
       }).catch(error => {
         console.log('Error querying db',error);
         res.status(500);
      });
+
+    db.query(myQuery).then(function(results2) {
+        res.render(myRender, 
+            { teams: teamresults, participants: results2})
+      }).catch(error => {
+        console.log('Error querying db',error);
+        res.status(500);
+     });  
+
            
 };  
 

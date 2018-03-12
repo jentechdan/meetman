@@ -8,8 +8,8 @@ html
 		nav.navbar.navbar-inverse
 			.container.animated.fadeInUp
 			.jumbotron
-				h1 Meeting Manager
-				<img src="images/banner4.png" class="img-responsive">
+				.container
+				<img src="images/banner2.png" class="img-responsive">
 			.container
 				.navbar-header
 					button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
@@ -19,21 +19,46 @@ html
 						span.icon-bar
 				.navbar-collapse.collapse
 					ul.nav.navbar-nav
-						li.active
-							a(data-toggle="modal" href="/participants")
+						li 
+							a(href='/participants')
 								span.glyphicon.glyphicon-th-list
-								|  Participant List						
-						li.active
-							a(data-toggle="modal" href="/participants/update?id=" #{participants[0].participantid})
-								span.glyphicon.glyphicon-edit
-								|  Participant Update		
+								|  Participants	
+						li
+							a(href='/venues?id=#{participants[0].meetingid}')
+								span.glyphicon.glyphicon-home
+								|  Venues													
+						li
+							a(href='/meetings?id=#{participants[0].meetingid}')
+								span.glyphicon.glyphicon-bullhorn
+								|  Meetings
+						li
+							a(href='/facilitators?id=#{participants[0].meetingid}')
+								span.glyphicon.glyphicon-user
+								|  Facilitators								
+						li.dropdown
+							a.dropdown-toggle(href='#', data-toggle="dropdown")
+								|  Reports
+								b.caret
+							ul.dropdown-menu
+								li
+									a(href='/report1') Report-1
+								li
+									a(href='/report2') Report-2
+								li
+									a(href='/report3') Report-3
+								li
+									a(href='/report4') Report-4	
+						li
+							a(href="/helloworld")
+								span.glyphicon.glyphicon-globe
+								|  Hello World																		
 			.container
 				.panel-group(id="accordion")
 					.panel.panel-default
 						.panel-heading
 							h4.panel-title
-								a(data-toggle="collapse" data-parent="#accordion" href="#collapse1") Participant Details for: #{participants[0].firstname} #{participants[0].lastname}
-						.panel-collapse.collapse(id="collapse1")
+								a(data-toggle="collapse" data-parent="#accordion" href="#collapse1") Participant Details: #{participants[0].firstname} #{participants[0].lastname}
+						.panel-collapse.collapse(id="collapse1" class="collapse in")
 							.panel-body
 									.table-responsive
 										table.stabletable
@@ -71,33 +96,39 @@ html
 					.panel.panel-default
 						.panel-heading
 							h4.panel-title
-								a(data-toggle="collapse" data-parent="#accordion2" href="#collapse2") Team Assignment for: #{participants[0].firstname} #{participants[0].lastname}
-						.panel-collapse.collapse(id="collapse2")
+								a(data-toggle="collapse" data-parent="#accordion2" href="#collapse2") Team Assignment: #{participants[0].teamletter + participants[0].teamcolor}
+						.panel-collapse.collapse(id="collapse2" class="collapse in")
 							.panel-body
-									h2 #{tabletitle}
+								form(name="teamupdate" action="participantDetails"  method="post")
 									.table-responsive
 										table.stabletable
-											thread
-												tr
-													td=  "TeamID:" 
-													td   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  	 						
-													td=  participants[0].teamid
-												tr
-													td=  "Team Identification:"	
-													td 
-													td=  participants[0].teamletter + participants[0].teamcolor	
-												tr
-													td=  "Team Spirit Name"
-													td   
-													td=  participants[0].teamspiritname											
-												tr
-													td=  "Team Points:"
-													td   
-													td=  participants[0].teampoints
-												tr
-													td=  "Team Rank:"
-													td   
-													td=  participants[0].teamrank												
+											tr
+												input(name='id' type='text' size='30' maxlength='30' value="#{participants[0].participantid}" hidden)
+										
+												select.form-control(name="teamid" id="teamid" maxlength=10)
+															option(value="#{participants[0].teamid}" default selected) #{participants[0].teamletter + participants[0].teamcolor}
+															- for team in teams
+																option(value="#{team.teamid}") #{team.teamletter + team.teamcolor}	
+												p
+												input(type='submit' name='submit' value='Assign to Team')
+											tr
+												td   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												td   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												td   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											tr
+												td=  "Team Spirit Name:"
+												td   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												td=  participants[0].teamspiritname											
+											tr
+												td=  "Team Points:"
+												td   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												td=  participants[0].teampoints
+											tr
+												td=  "Team Rank:"
+												td   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												td=  participants[0].teamrank
+												
+									
 
 	script(src='/javascripts/jquery-2.0.3.min.js')
 	script(src='/javascripts/bootstrap.min.js')

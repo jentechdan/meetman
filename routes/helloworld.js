@@ -26,7 +26,7 @@ exports.hello = function(req, res){
       lastname: "Clarke",
       email: "michael.clark@dell.com"});
  
-  title = "Participant Listing";
+  title = "Hello World";
   m_names = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
 
   d = new Date();

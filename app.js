@@ -2,6 +2,7 @@ var express = require('express');
 var massive = require('massive');
 var helloworld = require('./routes/helloworld');
 var participants = require('./routes/participants');
+var participantDetails = require('./routes/participantDetails');
 var http = require('http');
 var path = require('path');
 var app = express();
@@ -26,9 +27,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 // app.get('/', routes.index);
-app.get('/helloworld', helloworld.hello);			    //  Hello World Example
-app.get('/participants', participants.list);      //  Participants Listing
-
+app.get('/helloworld', helloworld.hello);		  								//  Hello World Example
+app.get('/participants', participants.list);      								//  Participants Listing              	  								/
+app.post('/participantDetails', participantDetails.postteam);                	//  Update Participant's Team
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
