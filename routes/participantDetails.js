@@ -24,9 +24,10 @@ exports.postteam = function(req, res){
 var myTeam = req.body.teamid;
 var myParticipantID = req.body.id;
 
-myQuery = 'Update Participant set TeamID = ' + myTeam + " where ParticipantID = " + myParticipantID;
+//myQuery = 'Update Participant set TeamID = ' + myTeam + " where ParticipantID = " + myParticipantID;
 
-db.query(myQuery).then(function(results) {
+
+db.query("Update Participant set TeamID= $1 where ParticipantID= $2",[myTeam,myParticipantID]).then(function(results) {
         res.redirect('/participants?id=' + myParticipantID);
       }).catch(error => {
         console.log('Error updating db',error);
