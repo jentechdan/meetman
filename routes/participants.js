@@ -25,7 +25,6 @@ var myID = req.query.id;
 
  teamQuery = 'Select * from Team;'; 
 
-
 if (myID != null) {
   myQuery = 'SELECT participant.*, organization.organizationname, team.* \
                 FROM participant \
