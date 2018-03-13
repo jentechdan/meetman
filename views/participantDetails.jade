@@ -23,6 +23,10 @@ html
 							a(href='/participants')
 								span.glyphicon.glyphicon-th-list
 								|  Participants	
+						li 
+							a(href='/teams?id=#{participants[0].meetingid}')
+								span.glyphicon.glyphicon-user
+								|  Teams									
 						li
 							a(href='/venues?id=#{participants[0].meetingid}')
 								span.glyphicon.glyphicon-home
@@ -33,7 +37,7 @@ html
 								|  Meetings
 						li
 							a(href='/facilitators?id=#{participants[0].meetingid}')
-								span.glyphicon.glyphicon-user
+								span.glyphicon.glyphicon-asterisk
 								|  Facilitators								
 						li.dropdown
 							a.dropdown-toggle(href='#', data-toggle="dropdown")
@@ -47,11 +51,7 @@ html
 								li
 									a(href='/report3') Report-3
 								li
-									a(href='/report4') Report-4	
-						li
-							a(href="/helloworld")
-								span.glyphicon.glyphicon-globe
-								|  Hello World																		
+									a(href='/report4') Report-4																		
 			.container
 				.panel-group(id="accordion")
 					.panel.panel-default
@@ -127,8 +127,6 @@ html
 												td=  "Team Rank:"
 												td   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 												td=  participants[0].teamrank
-												
-									
 
 	script(src='/javascripts/jquery-2.0.3.min.js')
 	script(src='/javascripts/bootstrap.min.js')

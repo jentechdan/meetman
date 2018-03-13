@@ -22,6 +22,10 @@ html
 							a(href='/participants')
 								span.glyphicon.glyphicon-th-list
 								|  Participants	
+						li 
+							a(href='/teams')
+								span.glyphicon.glyphicon-user
+								|  Teams									
 						li
 							a(href='/venues')
 								span.glyphicon.glyphicon-home
@@ -32,7 +36,7 @@ html
 								|  Meetings
 						li
 							a(href='/facilitators')
-								span.glyphicon.glyphicon-user
+								span.glyphicon.glyphicon-asterisk
 								|  Facilitators								
 						li.dropdown
 							a.dropdown-toggle(href='#', data-toggle="dropdown")
@@ -46,26 +50,22 @@ html
 								li
 									a(href='/report3') Report-3
 								li
-									a(href='/report4') Report-4	
-						li
-							a(href="/helloworld")
-								span.glyphicon.glyphicon-globe
-								|  Hello World												
+									a(href='/report4') Report-4												
 		h2 Participant List	
 		table.hovertable
 			tr 
-				th Participant ID
-				th First Name
-				th Last Name
-				th Short Name
-				th Organization Name				
-				th Email
-				th FY
-				th Dietary Needs
-				th Team Name					
+				th.text-align: center ID
+				th.text-align: center First Name
+				th.text-align: center Last Name
+				th.text-align: center Short Name
+				th.text-align: center Organization				
+				th.text-align: center Email
+				th.text-align: center FY
+				th.text-align: center Dietary
+				th.text-align: center Team					
 				for participant in participants		
 					tr.hovertable(onmouseover="this.style.backgroundColor='lightgray';" onmouseout="this.style.backgroundColor='white';")
-						td
+						td.text-align: center
 							a(href="/participants?id=#{participant.participantid}") #{participant.participantid}
 						td= participant.firstname
 						td= participant.lastname
@@ -75,6 +75,7 @@ html
 						td= participant.fy
 						td= participant.dietaryneeds
 						td= participant.teamletter + participant.teamcolor
+
 	script(src='/javascripts/jquery-2.0.3.min.js')
 	script(src='/javascripts/bootstrap.min.js')
 

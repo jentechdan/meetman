@@ -56,27 +56,27 @@ width:780px;
 	font-size:11px;
 	color:#333333;
 	border-width: 1px;
-	border-color: #999999;
+	border-color: lightgray;
 	border-collapse: collapse;
 }
 .hovertable th {
 	background-color:#2E2E2E;
 	border-width: 1px;
 	color: white;
-	width: 160px;
-	padding: 8px;
+	width: 120px;
+	padding: 4px;
 	border-style: solid;
-	border-color: #a9c6c9;
+	border-color: lightgray;
 }
 .hovertable tr {
 	background-color:white;
 }
 .hovertable td {
 	border-width: 1px;
-	width: 160px;
-	padding: 8px;
+	width: 120px;
+	padding: 4px;
 	border-style: solid;
-	border-color: #a9c6c9;
+	border-color: lightgray;
 }
 /* ----------- FORM LAYOUT ----------- */
 #form_wrapper
