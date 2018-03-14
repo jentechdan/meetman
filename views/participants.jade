@@ -57,24 +57,21 @@ html
 				th.text-align: center ID
 				th.text-align: center First Name
 				th.text-align: center Last Name
-				th.text-align: center Short Name
 				th.text-align: center Organization				
 				th.text-align: center Email
-				th.text-align: center FY
-				th.text-align: center Dietary
-				th.text-align: center Team					
+				th.text-align: center Prework Complete?				
+				th.text-align: center Team	
+				
 				for participant in participants		
 					tr.hovertable(onmouseover="this.style.backgroundColor='lightgray';" onmouseout="this.style.backgroundColor='white';")
 						td.text-align: center
 							a(href="/participants?id=#{participant.participantid}") #{participant.participantid}
 						td= participant.firstname
 						td= participant.lastname
-						td= participant.shortname
 						td= participant.organizationname						
 						td= participant.emailaddress
-						td= participant.fy
-						td= participant.dietaryneeds
-						td= participant.teamletter + participant.teamcolor
+						td.text-align: center= participant.preworkcomplete						
+						td.text-align: center= participant.teamletter + participant.teamcolor
 
 	script(src='/javascripts/jquery-2.0.3.min.js')
 	script(src='/javascripts/bootstrap.min.js')

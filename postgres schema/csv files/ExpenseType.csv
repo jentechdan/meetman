@@ -1,0 +1,5 @@
+ExpenseTypeID,ExpenseTypeDescription
+1,Airfare
+2,Ground Transportation
+3,Food
+4,Hotel Room

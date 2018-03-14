@@ -1,0 +1,5 @@
+ExpenseID,ParticipantID,ExpenseTypeID,ExpenseDescription,ExpenseAmount,ExpenseDate
+1,71,1,SW Airline - Roundtrip  - Boston to Austin,995,
+2,71,2,"Taxi to Hotel, Taxi to Airport",110,
+3,71,3,Total for all Restaurant Receipts,145,
+4,71,4,Hotel Room - 3 nights,795,

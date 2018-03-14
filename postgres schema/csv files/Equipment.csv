@@ -1,4 +1,4 @@
-EquipmentID,MeetingID,EquipmentDescription,Quantity,SetupInstructions,OwnedorRental,DailyRentalPrice
+EquipmentID,EventRoomID,EquipmentDescription,Quantity,SetupInstructions,OwnedorRental,DailyRentalPrice
 1,1,Laptop Projectors,2,Sync both Projectors on Screens,R,375
 2,1,Screens,2,8 X 10 Screen,R,350
 3,1,Microphone,2,Lavalier & Handheld Microphone ,R,211
