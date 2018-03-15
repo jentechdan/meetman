@@ -21,15 +21,19 @@ html
 						li 
 							a(href='/participants')
 								span.glyphicon.glyphicon-th-list
-								|  Participants	
+								|  Participants
 						li 
 							a(href='/teams')
 								span.glyphicon.glyphicon-user
-								|  Teams									
+								|  Teams
+						li
+							a(href='/committees')
+								span.glyphicon.glyphicon-gift
+								|  Committees
 						li
 							a(href='/venues')
 								span.glyphicon.glyphicon-home
-								|  Venues													
+								|  Venues
 						li
 							a(href='/meetings')
 								span.glyphicon.glyphicon-bullhorn
@@ -37,20 +41,20 @@ html
 						li
 							a(href='/facilitators')
 								span.glyphicon.glyphicon-asterisk
-								|  Facilitators								
+								|  Facilitators
 						li.dropdown
 							a.dropdown-toggle(href='#', data-toggle="dropdown")
 								|  Reports
 								b.caret
 							ul.dropdown-menu
 								li
-									a(href='/report1') Report-1
+									a(href='/leaderboard') Leaderboard
 								li
-									a(href='/report2') Report-2
+									a(href='/teamcards') Team Cards
 								li
-									a(href='/report3') Report-3
+									a(href='/participantcards') Participant Cards
 								li
-									a(href='/report4') Report-4												
+									a(href='/budgettracker') Budget Tracker											
 		h2 Participant List	
 		table.hovertable
 			tr 
