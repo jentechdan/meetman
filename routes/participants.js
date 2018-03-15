@@ -37,7 +37,7 @@ if (myID != null) {
 
   } else {
 
-  myQuery =  'SELECT participant.*, organization.organizationname, team.* \
+  myQuery =  'SELECT participant.*, organization.organizationname, team.*, committee.* \
                 FROM participant \
                   LEFT JOIN team ON team.teamid = participant.teamid \
                   LEFT JOIN committee on committee.committeeid = participant.committeeid \
