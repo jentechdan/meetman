@@ -40,7 +40,9 @@ create table Venue (
   VenuePostal         VARCHAR(15),
   VenueCountry        VARCHAR(25),
   VenuePhone          VARCHAR(25),
-  VenueFax            VARCHAR(25),   
+  VenueFax            VARCHAR(25), 
+  VenueCateringCost   NUMERIC,
+  VenueSleepingRooms  INTEGER, 
 constraint pkVenue primary key (VenueID));
 
 
@@ -52,6 +54,7 @@ create table Meeting (
    MeetingDateEnd				  DATE                  not null,
    MeetingHours					  VARCHAR(50),
    MeetingSponsor				  VARCHAR(50),
+   MeetingBudget          NUMERIC,
    constraint pkMeeting primary key (MeetingID),
    constraint fkMeetingVenue foreign key (VenueID)
    		references Venue(VenueID)
@@ -65,6 +68,7 @@ create table EventRoom (
   EventRoomSize            INTEGER,
   EventRoomFunction        VARCHAR(25),
   EventRoomLayout          VARCHAR(500),
+  EventRoomCost            NUMERIC,
   constraint pkEventRoom primary key (EventRoomID),
   constraint fkEventRoomVenue foreign key (VenueID) 
       references Venue(VenueID),
@@ -96,6 +100,13 @@ create table Topic (
    		references Meeting(MeetingID)
 );
 
+
+create table Committee (
+   CommitteeID                INTEGER         not null,
+   CommitteeDescription       VARCHAR(100)    not null,
+   constraint pkCommittee primary key (CommitteeID)
+);
+
 create table Participant (
     ParticipantID              	INTEGER       not null,
     OrganizationID				      INTEGER       not null,
@@ -110,13 +121,16 @@ create table Participant (
     PreWorkComplete             CHAR(3),
     TeamID						          INTEGER,
     MeetingID					          INTEGER,
+    CommitteeID                 INTEGER,
     constraint pkParticipant primary key (ParticipantID),
     constraint fkPartipantOrg foreign key (OrganizationID)
          references Organization (OrganizationID),
     constraint fkPartipantTeam foreign key (TeamID)    
     	 references Team(TeamID),
     constraint fkPartipantMeeting foreign key (MeetingID)
-    	 references Meeting(MeetingID)	  
+    	 references Meeting(MeetingID),
+    constraint fkParticipantCommittee foreign key (CommitteeID)
+       references Committee(CommitteeID)   	  
 );
 
 create table ExpenseType (

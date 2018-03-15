@@ -1,76 +1,76 @@
-PartipantID,OrganizationID,FirstName,LastName,ShortName,EmailAddress,FY,DietaryNeeds,TeeShirtSize,EmergencyContact,PreWorkComplete,TeamID,MeetingID
-1,1,Raiyan,Ahmed,,Raiyan.Ahmed@dell.com,FY17,,,,Yes,1,1
-2,1,Jawaid,Ali,,Jawaid.Ali@Dell.com,FY17,,,,Yes,1,1
-3,1,Nazif,Ali,,Nazif.Ali@dell.com,FY18,,,,Yes,1,1
-4,1,Louis,Andres,,Louis.Andres@Dell.com,FY17,,,,Yes,1,1
-5,1,Maisam,Arif,,Maisam.Arif@Dell.com,FY18,,,,Yes,1,1
-6,1,Sujan,Aryal,,Sujan.Aryal@dell.com,FY18,,,,Yes,1,1
-7,1,Saru,Basnet,,Saru.Basnet@dell.com,FY17,,,,Yes,2,1
-8,2,Jose,Boillat,,Jose.Boillat@dell.com,FY17,,,,Yes,2,1
-9,1,Joanne,Bruno,,Joanne.Bruno@dell.com,FY17,,,,Yes,2,1
-10,1,Lowell,Burkett,,Lowell.Burkett@dell.com,FY17,,,,Yes,2,1
-11,1,Grace,Chen,,G.Chen@Dell.com,FY17,,,,Yes,2,1
-12,1,Allee,Clark,,Allee.Clark@dell.com,FY17,,,,Yes,2,1
-13,1,Dre,Coldwell,,Dre.Coldwell@Dell.com,FY17,,,,Yes,3,1
-14,1,Brendan,Cutliff,,Brendan.Cutliff@Dell.com,FY17,,,,Yes,3,1
-15,3,Michael,Dial,,Michael.Dial@Dell.com,FY17,,,,Yes,3,1
-16,1,Adam,Dirks,,Adam.Dirks@dell.com,FY18,,,,Yes,3,1
-17,1,Odike,Eze-Echesi,,Odike.Eze-Echesi@dell.com,FY17,,,,Yes,3,1
-18,1,Nora,Farouk,,Nora.Farouk@dell.com,FY17,,,,Yes,3,1
-19,1,Cory,Fleitas,,Cory.Fleitas@Dell.com,FY18,,,,Yes,4,1
-20,1,Sheeyla,Garcia,,Sheeyla.Garcia@dell.com,FY17,,,,Yes,4,1
-21,1,Kailey,Webster,,Kailey.Webster@Dell.com,FY17,,,,Yes,4,1
-22,1,Kay,Harris,,Kay.Harris@dell.com,FY17,,,,Yes,4,1
-23,1,Eric,Harvey,,Eric.Harvey@dell.com,FY18,,,,Yes,4,1
-24,1,Chris,Hogue,,Chris.Hogue@dell.com,FY17,,,,Yes,4,1
-25,1,Blake,Jackson,,Blake.Jackson@dell.com,FY18,,,,Yes,5,1
-26,2,Daniel,James,,Daniel.James2@dell.com,FY17,,,,Yes,5,1
-27,1,Tae,Kim,,Tae.K@dell.com,FY17,,,,Yes,5,1
-28,1,Kei,Kudose,,Kei.Kudose@dell.com,FY17,,,,Yes,5,1
-29,1,Shivaan,Kulanathan,,Shivaan.Kulanathan@Dell.com,FY17,,,,Yes,5,1
-30,1,Daniel,LePham,,Daniel.LePham@Dell.com,FY18,,,,Yes,5,1
-31,1,Thomas,Lewis,,Thomas.S.Lewis@Dell.com,FY17,,,,Yes,6,1
-32,2,Daniel,Luna,,D.Luna@dell.com,FY17,,,,Yes,6,1
-33,3,Chandlor,Lyles,,Chandlor.Lyles@Dell.com,FY17,,,,Yes,6,1
-34,1,Phillip,Magos,,Phillip.Magos@dell.com,FY17,,,,Yes,6,1
-35,1,Austin,Mathias,,Austin.Mathias@dell.com,FY17,,,,Yes,6,1
-36,1,Ryan,McClure,,Ryan.Mcclure@dell.com,FY17,,,,Yes,6,1
-37,1,Zach,Myers,,Zach.Myers@Dell.com,FY17,,,,Yes,7,1
-38,1,Kevin,Nguyen,,Kevin.Nguyen3@dell.com,FY18,,,,Yes,7,1
-39,2,Joseph,Oh,,Joseph.Oh@dell.com,FY17,,,,Yes,7,1
-40,3,Kunal,Patel,,Kunal.Patel@Dell.com,FY17,,,,Yes,7,1
-41,1,Alizen,Prasla,,Alizen.Prasla@dell.com,FY18,,,,Yes,7,1
-42,3,Michael,Rea,,Michael.Rea@Dell.com,FY17,,,,Yes,7,1
-43,1,David,Ryland,,David.Ryland@dell.com,FY17,,,,Yes,8,1
-44,1,Aldair,Sanchez Alvarado,,Aldair.SanchezAlvara@Dell.com,FY18,,,,Yes,8,1
-45,1,Thomas,Sell,,Thomas.Sell@dell.com,FY18,,,,Yes,8,1
-46,1,Walter,Sims,,Walter.Sims@dell.com,FY17,,,,Yes,8,1
-47,3,Victoria,Steele,,Victoria.Steele@Dell.com,FY17,,,,Yes,8,1
-48,1,Jenna,Thompson,,Jenna.T@Dell.com,FY18,,,,Yes,8,1
-49,1,Annie,Tran,,Annie.Tran@dell.com,FY17,,,,Yes,9,1
-50,2,Eddie,Trieu,,Eddie.Trieu@dell.com,FY17,,,,Yes,9,1
-51,1,Angelica,Velez,,Angelica.Velez@dell.com,FY17,,,,Yes,9,1
-52,3,Neha,Vinod,,Neha.Vinod@dell.com,FY17,,,,Yes,9,1
-53,1,Daanish,Virani,,Daanish.Virani@Dell.com,FY17,,,,Yes,9,1
-54,3,Dalton,Weaner,,Dalton.Weaner@Dell.com,FY17,,,,Yes,9,1
-55,1,Wes,Williams,,Wes.Williams@dell.com,FY17,,,,Yes,9,1
-56,1,Lori,Wood,,L.Wood@Dell.com,FY18,,,,Yes,10,1
-57,1,Jay,Yi,,Jay.Yi@dell.com,FY17,,,,Yes,10,1
-58,1,Michael,Zarate,,Michael.Zarate@Dell.com,FY18,,,,Yes,10,1
-59,1,Rebecca,Roth,,Rebecca.Roth@dell.com,FY18,,,,Yes,10,1
-60,3,Chantal,"Barrett, Chantal",,Chantal.Barrett@dell.com,FY18,,,,Yes,10,1
-61,3,Jonathan,Brodeur Jr,,Jonathan.BrodeurJr@Dell.com,FY18,,,,Yes,10,1
-62,3,Katherine,Dalrymple,,Katherine.Dalrymple@Dell.com,FY18,,,,Yes,11,1
-63,3,Jonathan,Giara,,Jonathan.Giara@dell.com,FY18,,,,Yes,11,1
-64,3,Justin,Lesko,,Justin.Lesko@dell.com,FY18,,,,Yes,11,1
-65,3,Tim,Macmannis,,Timothy.Macmannis@dell.com,FY18,,,,Yes,11,1
-66,3,Emily,Stiles,,Emily.Stiles@dell.com,FY18,,,,Yes,11,1
-67,3,Kevin,Suzuki,,Kevin.Suzuki@Dell.com,FY18,,,,Yes,11,1
-68,1,David,Daniel,,D_Daniel@Dell.com,FY19,,,,Yes,11,1
-69,1,Xavier,Cardona,,Xavier_Cardona@Dell.com,FY19,,,,Yes,12,1
-70,1,"Liu, Fiona",Liu,,Fiona_Liu3@Dell.com,FY19,,,,Yes,12,1
-71,3,Jonathan,Becker,Crash,Jonathan.Becker@dell.com,Alumni ,Meat and Potatoes,X-Large,Mommy  888-999-1234,Yes,12,1
-72,3,Eric,Muise,,Eric.Muise@dell.com,Alumni ,,,,Yes,12,1
-73,1,Zach,Davis,,Zach_Davis@Dell.com,Alumni ,,,,Yes,12,1
-74,1,Natali,Padron,,Natali_Padron@Dell.com,Alumni ,,,,Yes,12,1
-75,1,Ritka,Mehta,,Ritika_Mehta@Dell.com,Alumni ,,,,Yes,12,1
+PartipantID,OrganizationID,FirstName,LastName,ShortName,EmailAddress,FY,DietaryNeeds,TeeShirtSize,EmergencyContact,PreWorkComplete,TeamID,MeetingID,CommitteeID
+1,1,Raiyan,Ahmed,,Raiyan.Ahmed@dell.com,FY17,,,,Yes,1,1,
+2,1,Jawaid,Ali,,Jawaid.Ali@Dell.com,FY17,,,,Yes,1,1,
+3,1,Nazif,Ali,,Nazif.Ali@dell.com,FY18,,,,Yes,1,1,
+4,1,Louis,Andres,,Louis.Andres@Dell.com,FY17,,,,Yes,1,1,
+5,1,Maisam,Arif,,Maisam.Arif@Dell.com,FY18,,,,Yes,1,1,
+6,1,Sujan,Aryal,,Sujan.Aryal@dell.com,FY18,,,,Yes,1,1,
+7,1,Saru,Basnet,,Saru.Basnet@dell.com,FY17,,,,Yes,2,1,
+8,2,Jose,Boillat,,Jose.Boillat@dell.com,FY17,,,,Yes,2,1,
+9,1,Joanne,Bruno,,Joanne.Bruno@dell.com,FY17,,,,Yes,2,1,
+10,1,Lowell,Burkett,,Lowell.Burkett@dell.com,FY17,,,,Yes,2,1,
+11,1,Grace,Chen,,G.Chen@Dell.com,FY17,,,,Yes,2,1,
+12,1,Allee,Clark,,Allee.Clark@dell.com,FY17,,,,Yes,2,1,
+13,1,Dre,Coldwell,,Dre.Coldwell@Dell.com,FY17,,,,Yes,3,1,
+14,1,Brendan,Cutliff,,Brendan.Cutliff@Dell.com,FY17,,,,Yes,3,1,
+15,3,Michael,Dial,,Michael.Dial@Dell.com,FY17,,,,Yes,3,1,
+16,1,Adam,Dirks,,Adam.Dirks@dell.com,FY18,,,,Yes,3,1,
+17,1,Odike,Eze-Echesi,,Odike.Eze-Echesi@dell.com,FY17,,,,Yes,3,1,
+18,1,Nora,Farouk,,Nora.Farouk@dell.com,FY17,,,,Yes,3,1,
+19,1,Cory,Fleitas,,Cory.Fleitas@Dell.com,FY18,,,,Yes,4,1,
+20,1,Sheeyla,Garcia,,Sheeyla.Garcia@dell.com,FY17,,,,Yes,4,1,
+21,1,Kailey,Webster,,Kailey.Webster@Dell.com,FY17,,,,Yes,4,1,
+22,1,Kay,Harris,,Kay.Harris@dell.com,FY17,,,,Yes,4,1,
+23,1,Eric,Harvey,,Eric.Harvey@dell.com,FY18,,,,Yes,4,1,
+24,1,Chris,Hogue,,Chris.Hogue@dell.com,FY17,,,,Yes,4,1,
+25,1,Blake,Jackson,,Blake.Jackson@dell.com,FY18,,,,Yes,5,1,
+26,2,Daniel,James,,Daniel.James2@dell.com,FY17,,,,Yes,5,1,
+27,1,Tae,Kim,,Tae.K@dell.com,FY17,,,,Yes,5,1,
+28,1,Kei,Kudose,,Kei.Kudose@dell.com,FY17,,,,Yes,5,1,
+29,1,Shivaan,Kulanathan,,Shivaan.Kulanathan@Dell.com,FY17,,,,Yes,5,1,
+30,1,Daniel,LePham,,Daniel.LePham@Dell.com,FY18,,,,Yes,5,1,
+31,1,Thomas,Lewis,,Thomas.S.Lewis@Dell.com,FY17,,,,Yes,6,1,
+32,2,Daniel,Luna,,D.Luna@dell.com,FY17,,,,Yes,6,1,
+33,3,Chandlor,Lyles,,Chandlor.Lyles@Dell.com,FY17,,,,Yes,6,1,
+34,1,Phillip,Magos,,Phillip.Magos@dell.com,FY17,,,,Yes,6,1,
+35,1,Austin,Mathias,,Austin.Mathias@dell.com,FY17,,,,Yes,6,1,
+36,1,Ryan,McClure,,Ryan.Mcclure@dell.com,FY17,,,,Yes,6,1,
+37,1,Zach,Myers,,Zach.Myers@Dell.com,FY17,,,,Yes,7,1,
+38,1,Kevin,Nguyen,,Kevin.Nguyen3@dell.com,FY18,,,,Yes,7,1,
+39,2,Joseph,Oh,,Joseph.Oh@dell.com,FY17,,,,Yes,7,1,
+40,3,Kunal,Patel,,Kunal.Patel@Dell.com,FY17,,,,Yes,7,1,
+41,1,Alizen,Prasla,,Alizen.Prasla@dell.com,FY18,,,,Yes,7,1,
+42,3,Michael,Rea,,Michael.Rea@Dell.com,FY17,,,,Yes,7,1,
+43,1,David,Ryland,,David.Ryland@dell.com,FY17,,,,Yes,8,1,
+44,1,Aldair,Sanchez Alvarado,,Aldair.SanchezAlvara@Dell.com,FY18,,,,Yes,8,1,
+45,1,Thomas,Sell,,Thomas.Sell@dell.com,FY18,,,,Yes,8,1,
+46,1,Walter,Sims,,Walter.Sims@dell.com,FY17,,,,Yes,8,1,
+47,3,Victoria,Steele,,Victoria.Steele@Dell.com,FY17,,,,Yes,8,1,
+48,1,Jenna,Thompson,,Jenna.T@Dell.com,FY18,,,,Yes,8,1,
+49,1,Annie,Tran,,Annie.Tran@dell.com,FY17,,,,Yes,9,1,
+50,2,Eddie,Trieu,,Eddie.Trieu@dell.com,FY17,,,,Yes,9,1,
+51,1,Angelica,Velez,,Angelica.Velez@dell.com,FY17,,,,Yes,9,1,
+52,3,Neha,Vinod,,Neha.Vinod@dell.com,FY17,,,,Yes,9,1,
+53,1,Daanish,Virani,,Daanish.Virani@Dell.com,FY17,,,,Yes,9,1,
+54,3,Dalton,Weaner,,Dalton.Weaner@Dell.com,FY17,,,,Yes,9,1,
+55,1,Wes,Williams,,Wes.Williams@dell.com,FY17,,,,Yes,9,1,
+56,1,Lori,Wood,,L.Wood@Dell.com,FY18,,,,Yes,10,1,
+57,1,Jay,Yi,,Jay.Yi@dell.com,FY17,,,,Yes,10,1,
+58,1,Michael,Zarate,,Michael.Zarate@Dell.com,FY18,,,,Yes,10,1,
+59,1,Rebecca,Roth,,Rebecca.Roth@dell.com,FY18,,,,Yes,10,1,
+60,3,Chantal,"Barrett, Chantal",,Chantal.Barrett@dell.com,FY18,,,,Yes,10,1,
+61,3,Jonathan,Brodeur Jr,,Jonathan.BrodeurJr@Dell.com,FY18,,,,Yes,10,1,
+62,3,Katherine,Dalrymple,,Katherine.Dalrymple@Dell.com,FY18,,,,Yes,11,1,
+63,3,Jonathan,Giara,,Jonathan.Giara@dell.com,FY18,,,,Yes,11,1,
+64,3,Justin,Lesko,,Justin.Lesko@dell.com,FY18,,,,Yes,11,1,
+65,3,Tim,Macmannis,,Timothy.Macmannis@dell.com,FY18,,,,Yes,11,1,
+66,3,Emily,Stiles,,Emily.Stiles@dell.com,FY18,,,,Yes,11,1,
+67,3,Kevin,Suzuki,,Kevin.Suzuki@Dell.com,FY18,,,,Yes,11,1,
+68,1,David,Daniel,,D_Daniel@Dell.com,FY19,,,,Yes,11,1,
+69,1,Xavier,Cardona,,Xavier_Cardona@Dell.com,FY19,,,,Yes,12,1,
+70,1,"Liu, Fiona",Liu,,Fiona_Liu3@Dell.com,FY19,,,,Yes,12,1,
+71,3,Jonathan,Becker,Crash,Jonathan.Becker@dell.com,Alumni ,Meat and Potatoes,X-Large,Mommy  888-999-1234,Yes,12,1,9
+72,3,Eric,Muise,,Eric.Muise@dell.com,Alumni ,,,,Yes,12,1,
+73,1,Zach,Davis,,Zach_Davis@Dell.com,Alumni ,,,,Yes,12,1,
+74,1,Natali,Padron,,Natali_Padron@Dell.com,Alumni ,,,,Yes,12,1,
+75,1,Ritka,Mehta,,Ritika_Mehta@Dell.com,Alumni ,,,,Yes,12,1,
