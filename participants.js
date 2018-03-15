@@ -26,19 +26,21 @@ var myID = req.query.id;
  teamQuery = 'Select * from Team;'; 
 
 if (myID != null) {
-  myQuery = 'SELECT participant.*, organization.organizationname, team.* \
+  myQuery = 'SELECT participant.*, organization.organizationname, team.*, committee.* \
                 FROM participant \
                   LEFT JOIN team ON team.teamid = participant.teamid \
                   LEFT JOIN organization on organization.organizationid = participant.organizationid \
+                  LEFT JOIN committee on committee.committeeid = participant.committeeid \
                   where participant.participantid = ' + myID;
                   
   myRender = 'participantDetails';
 
   } else {
 
-  myQuery =  'SELECT participant.*, organization.organizationname, team.* \
+  myQuery =  'SELECT participant.*, organization.organizationname, team.*, committee.* \
                 FROM participant \
                   LEFT JOIN team ON team.teamid = participant.teamid \
+                  LEFT JOIN committee on committee.committeeid = participant.committeeid \
                   LEFT JOIN organization on organization.organizationid = participant.organizationid order by 1;' 
                    
   myRender = 'participants';  
