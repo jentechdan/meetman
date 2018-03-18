@@ -1,4 +1,24 @@
 
+
+drop table Resume;
+drop table Facilitator;
+drop table Allergy;
+drop table Expense;
+drop table ExpenseType;
+drop table Participant;
+drop table Committee;
+drop table Topic;
+drop table Equipment;
+drop table EventRoom;
+drop table Meeting;
+drop table Venue;
+drop table VenueType;
+drop table Team;
+drop table FoodAllergy;
+drop table Association;
+drop table Organization;
+
+
 create table Organization (
    OrganizationID	        	INTEGER       not null,
    OrganizationName					VARCHAR(50)			not null,
@@ -30,8 +50,15 @@ create table Team (
    constraint pkTeam primary key (TeamID)
 );
 
+create table VenueType (
+  VenueTypeID           INTEGER           not null,
+  VenueTypeDescription  VARCHAR(50)       not null,
+  constraint pkVenueType primary key (VenueTypeID)
+ ); 
+
 create table Venue (     
-  VenueID             INTEGER           not null,   
+  VenueID             INTEGER           not null, 
+  VenueTypeID         INTEGER           not null,  
   VenueName           VARCHAR(100)      not null,      
   VenueAddress1       VARCHAR(100),   
   VenueAddress2       VARCHAR(100),   

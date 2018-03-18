@@ -1,0 +1,10 @@
+VenueTypeID,VenueTypeDescription
+1,Hotel
+2,Conference Center
+3,Convention Center
+4,Resort
+5,Cruise Ship
+6,Restaurant
+8,Sports Statium
+9,Retreat Center
+10,Other

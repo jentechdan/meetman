@@ -1,2 +1,2 @@
-VenueID,VenueName,VenueAddress1,VenueAddress2,VenueCity,VenueState,VenuePostal,VenueCountry,VenuePhone,VenueFax,VenueCateringCost,VenueSleepingRooms
-1,The Westin Austin at the Domain,11301 Domain Drive,,Austin,TX,78758,USA,512-832-4197,512-973-3703,22750,145
+VenueID,VenueTypeID,VenueName,VenueAddress1,VenueAddress2,VenueCity,VenueState,VenuePostal,VenueCountry,VenuePhone,VenueFax,VenueCateringCost,VenueSleepingRooms
+1,1,The Westin Austin at the Domain,11301 Domain Drive,,Austin,TX,78758,USA,512-832-4197,512-973-3703,22750,145
