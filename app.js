@@ -25,12 +25,12 @@ app.use(function(req,res,next){
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-
-// app.get('/', routes.index);
+// Get and Post Route Statements
 app.get('/helloworld', helloworld.hello);		  								//  Hello World Example
 app.get('/participants', participants.list);      								//  Participants Listing              	  								/
 app.post('/participantDetails', participantDetails.postteam);                	//  Update Participant's Team
 
+// Start the Node Server on Port 3000
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });

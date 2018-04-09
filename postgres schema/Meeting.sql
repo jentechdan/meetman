@@ -218,8 +218,20 @@ create table Resume (
    		references Facilitator (FacilitatorID)
 );
 
-
-
-
-
-
+copy "organization" from '/Users/danieljensen/Desktop/Meeting Manager Files/Organization.csv' delimiter ',' csv HEADER;
+copy "association" from '/Users/danieljensen/Desktop/Meeting Manager Files/Association.csv' delimiter ',' csv HEADER;
+copy "foodallergy" from '/Users/danieljensen/Desktop/Meeting Manager Files/FoodAllergy.csv' delimiter ',' csv HEADER;
+copy "team" from '/Users/danieljensen/Desktop/Meeting Manager Files/Team.csv' delimiter ',' csv HEADER;
+copy "venuetype" from '/Users/danieljensen/Desktop/Meeting Manager Files/VenueType.csv' delimiter ',' csv HEADER;
+copy "venue" from '/Users/danieljensen/Desktop/Meeting Manager Files/Venue.csv' delimiter ',' csv HEADER;
+copy "meeting" from '/Users/danieljensen/Desktop/Meeting Manager Files/Meeting.csv' delimiter ',' csv HEADER;
+copy "eventroom" from '/Users/danieljensen/Desktop/Meeting Manager Files/EventRoom.csv' delimiter ',' csv HEADER;
+copy "equipment" from '/Users/danieljensen/Desktop/Meeting Manager Files/Equipment.csv' delimiter ',' csv HEADER;
+copy "topic" from '/Users/danieljensen/Desktop/Meeting Manager Files/Topic.csv' delimiter ',' csv HEADER;
+copy "committee" from '/Users/danieljensen/Desktop/Meeting Manager Files/Committee.csv' delimiter ',' csv HEADER;
+copy "participant" from '/Users/danieljensen/Desktop/Meeting Manager Files/participant.csv' delimiter ',' csv HEADER;
+copy "expensetype" from '/Users/danieljensen/Desktop/Meeting Manager Files/ExpenseType.csv' delimiter ',' csv HEADER;
+copy "expense" from '/Users/danieljensen/Desktop/Meeting Manager Files/Expense.csv' delimiter ',' csv HEADER;
+copy "allergy" from '/Users/danieljensen/Desktop/Meeting Manager Files/Allergy.csv' delimiter ',' csv HEADER;
+copy "facilitator" from '/Users/danieljensen/Desktop/Meeting Manager Files/Facilitator.csv' delimiter ',' csv HEADER;
+copy "resume" from '/Users/danieljensen/Desktop/Meeting Manager Files/Resume.csv' delimiter ',' csv HEADER;
