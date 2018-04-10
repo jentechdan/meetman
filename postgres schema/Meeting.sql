@@ -170,7 +170,7 @@ create table Expense (
     ExpenseID                   INTEGER         not null,
     ParticipantID               INTEGER         not null,
     ExpenseTypeID               INTEGER         not null,
-    ExpenseDescription          VARCHAR(50),
+    ExpenseDescription          VARCHAR(150),
     ExpenseAmount               NUMERIC         not null,
     ExpenseDate                 DATE,
     constraint pkExpense primary key (ExpenseID),
