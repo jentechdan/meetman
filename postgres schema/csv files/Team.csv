@@ -1,13 +1,13 @@
-TeamID,TeamLetter,TeamColor,TeamSpiritName,TeamPoints,TeamRank
-1,A,Red,Eagles,100,1
-2,A,Blue,Bears,100,2
-3,A,Green,Cowboys,100,3
-4,A,Yellow,Falcons,100,4
-5,A,Orange,Dolphins,100,5
-6,A,Purple,Patriots,100,6
-7,B,Red,Vikings,100,7
-8,B,Blue,49ers,100,8
-9,B,Green,Oilers,100,9
-10,B,Yellow,Jags,100,10
-11,B,Orange,Buccaneers,100,11
-12,B,Purple,Broncos,100,12
+TeamID,TeamName,TeamSpiritName,TeamPoints,TeamRank
+1,Australia,Koalas,100,1
+2,Canada,Maple Leafs,100,1
+3,El Salvador,Volcanoes,100,1
+4,Germany,Beers,100,1
+5,Italy,Olives,100,1
+6,Japan,Sushi,100,1
+7,Kenya,Safari,100,1
+8,Mexico,Avocadoes,100,1
+9,Russia,Bears,100,1
+10,Sweden,Meatballs,100,1
+11,Thailand,Tuk-Tuks,100,1
+12,Venezuela,Beaches,100,1

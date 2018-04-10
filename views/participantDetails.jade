@@ -116,7 +116,7 @@ html
 					.panel.panel-default
 						.panel-heading
 							h4.panel-title
-								a(data-toggle="collapse" data-parent="#accordion2" href="#collapse2") Team Assignment: #{participants[0].teamletter + participants[0].teamcolor}
+								a(data-toggle="collapse" data-parent="#accordion2" href="#collapse2") Team Assignment: #{participants[0].teamname}
 						.panel-collapse.collapse(id="collapse2" class="collapse in")
 							.panel-body
 								form(name="teamupdate" action="participantDetails"  method="post")
@@ -126,9 +126,9 @@ html
 												input(name='id' type='text' size='30' maxlength='30' value="#{participants[0].participantid}" hidden)
 										
 												select.form-control(name="teamid" id="teamid" maxlength=10)
-															option(value="#{participants[0].teamid}" default selected) #{participants[0].teamletter + participants[0].teamcolor}
+															option(value="#{participants[0].teamid}" default selected) #{participants[0].teamname}
 															- for team in teams
-																option(value="#{team.teamid}") #{team.teamletter + team.teamcolor}	
+																option(value="#{team.teamid}") #{team.teamname}	
 												p
 												input(type='submit' name='submit' value='Assign to Team')
 											tr

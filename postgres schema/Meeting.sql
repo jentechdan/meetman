@@ -42,8 +42,7 @@ create table FoodAllergy (
 
 create table Team (
    TeamID	        		INTEGER           not null,
-   TeamLetter 				CHAR(1)    			  not null,
-   TeamColor					VARCHAR(15)				not null,			
+   TeamName					  VARCHAR(50)				not null,			
    TeamSpiritName			VARCHAR(50),
    TeamPoints					INTEGER,
    TeamRank						INTEGER,
