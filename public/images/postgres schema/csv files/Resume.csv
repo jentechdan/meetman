@@ -1,0 +1,42 @@
+ResumeID,FacilitatorID,YearsExperience,BackgroundDescription,WorkFocus,Expertise,CorporateClients
+1,1,38,"Dan, founder of JenTech Inc, has been an IT consultant to corporate organizations for over 29 years, and has been in the Information Technology business for over 38 years.  Dan has an extensive background in IT and leadship training programs, and he brings a wealth of experiences to his clients, both domestically and internationally.  Dan was the chief architech of the General Electric Company's Information Management Leadership Program, Johnson & Johnson;s Information Technology Leadership Development Program, Citi Bank's Springboard Program and Dell EMC's Information Tecnology Leadership Program.  Dan is a certified facilitator and course developer for Abilite's award winning Executive Challenge simulation.  Dan is an instructor for GE Predix.  Dan holds a Bachelor of Science degree in History for the University of Nebraska and a Graduate Degree in Business Administration from the Unviversity of Florida.","IT Leadership Programs: Dan designs IT Leadership programs that are considered the ""best in class"" in the industry today.  Over 5000 students have participated in Dan's IT leadership ""Bootcamps"" in the last 25 years.  These programs involve the students ina comprehensive business case study that is solved using project management, finance, presentation skills and the required tecnologies (Data Warehouse technology, relational or object database technologies, web technologies, cloud technologies and security).  Distant Learning Training Programs: Dan has designed and delivered a host of online training programs. The topics for these programs have included: GE Predix, IT Security and Controllership, Project Management / Agile / SDLC, Six Sigma & Lean, Data Warehouseing / Big Data / Tableau / BI Reporting.  Over 2500 students have participated.  
+","1.  Training Curriculum Design & Development
+2.  Project Management (PMI)
+3.  Agile Software Development
+4.  SDLC & Tollgate Deliverables
+5.  Mainframe Programming (DB2, CICS, ADS/O, IDMS) 
+6.  Database Technology (including NoSQL, Relational and Hierarchy)
+7.  Structured Query Language (SQL) for Oracle, DB2
+8.  Oracle PL-SQL
+9.  BI Reporting with Cognos, Business Objects and Tableau
+10.  Data Warehouse Design
+11.  Java, JavaScript, TypeScript, Python
+12  .Node, Express, Jade, Angular2, Angular 4
+13.  MongoDB & Mongoose
+14.  HTML 5 & CSS
+15.  GE Predix
+16.  IT Infrastructure & Networking
+17.  IT Security & Controllership","1.  Dell/EMC
+2.  Nielsen
+3.  Johnson & Johnson
+4.  Citigroup
+5.  General Electric
+6.  Cenveo
+7.  NBC Universal
+8.  Automated Concepts
+9.  Metlife
+10.  Principal Financial Group
+11.  The Mayo Clinic"
+2,2,20,"James Higginbotham is an API architect with nearly 20 years of experience architecting, building, and deploying APIs and products. He is a published author, speaker, trainer, consultant, and hands-on CTO-for-hire. He combines his passion for software with a focus on the product experience to create a balance between the complexity of scalability and ease of use of software solutions.","His experience with a wide-range of organizations provides deep insight into accelerating product development at any scale. James has delivered a wide variety of solutions for the healthcare, commercial insurance, supply chain management, non-profit, and airline industries. His solutions include API platforms, API as a product, software-as-a-service, and building multi-sided marketplace solutions. Organizations have ranged in size from Fortune 500 companies to early-stage startups.  James architects software solutions for cloud-native deployment as well as private data centers. His goal is to design and build software that balances the complexity of scalability and distributed computing with the ease of a modular, testable codebase. He believes that APIs should be designed to solve problems based on the workflows of the industry while providing a great developer experience for internal and external developers.  His training classes incorporate his years of experience, along with a continued hands-on role as a software architect and a CTO-for-hire (Interim CTO). He is the founder of LaunchAny (https://launchany.com/), an Austin-based services company that focuses on API design, development, and cloud infrastructure. When not helping teams understand, prepare, and launch their APIs, he enjoys spending time with his family and photographing landscapes.","1. REST APIs
+2.  SOA
+3.  Big Data
+4.  Product Strategy
+5.  Cloud Infrastructure
+6.  Ruby (Sinatra, Rails, and JRuby)
+7.  Java
+8.  Python
+9.  GoLang
+","1.  Dell/EMC
+2.  Nielsen
+3.  and many others
+"

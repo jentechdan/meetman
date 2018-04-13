@@ -1,0 +1,14 @@
+TopicID,TopicDescription,TopicDate,TopicSequence,MeetingID
+1,Teams are Formed,9-May-18,1,1
+2,"Agile, The Pivotal Way",9-May-18,2,1
+3,Business Objectives Identified,9-May-18,3,1
+4,Database Design,9-May-18,3,1
+5,Web/Report Design,9-May-18,3,1
+6,Data Provided,9-May-18,3,1
+7,Team Determines Technology to be used for the Project,9-May-18,4,1
+8,"Sprint 1 - WBS, Database, Build APIs, Testing, Deployment, Retrospective",9-May-18,5,1
+9,"Sprint 2 - WBS, Build Web Pages, Testing, Deployment, Retrospective",9-May-18,6,1
+10,"Sprint 3 - WBS, Build Reports, Testing, Deployment, Retrospective",10-May-18,1,1
+11,Deploy to the Pivotal Cloud,10-May-18,2,1
+12,Teams Present their final solution to the Customer,10-May-18,3,1
+13,Winning Team Selected and Awarded,10-May-18,4,1
