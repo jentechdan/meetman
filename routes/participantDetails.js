@@ -4,11 +4,11 @@
  */
 var massive = require('massive');
 const connectionParms = {
-  host: 'localhost',
+  host: 'smtpgsdev01.isus.emc.com',
   port: 5432,
-  database: 'MeetingManager',
-  user: 'postgres',
-  password: 'Sarge3836'
+  database: 'postgres',
+  user: 'smtdev',
+  password: 'atmp95'
 };
 var db;
 massive(connectionParms).then(connectedDB => {
